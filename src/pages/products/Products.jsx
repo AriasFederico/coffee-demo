@@ -1,7 +1,7 @@
 import './Products.scss';
 import { global } from '../../data/global';
 import { productsList } from '../../data/products';
-import { ProductCard } from './components/ProductCard.jsx/ProductCard';
+import { ProductCard } from './components/productCard/ProductCard';
 
 const { products } = global;
 const { title, description } = products;
