@@ -1,0 +1,48 @@
+@use '../../../styles/variables' as *;
+@use '../../../styles/mixins' as *;
+
+.Header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: $pure-white;
+    padding:1rem 1.5rem;
+    border-bottom: 1px solid $light-stone;
+
+    &__container {
+        max-width: 1152px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__logo {
+        font-size: 1.5rem;
+        font-family: $family-headings;
+        font-weight: bold;
+        color: $medium-stone;
+    }
+
+    &__burguer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: .6rem;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+
+        ion-icon {
+            width: 1.7rem;
+            height: 1.7rem;
+            color: $dark-stone;
+        }
+
+        @include tablet-desktop(){
+            display: none;            
+        }
+    }
+
+}

@@ -1,0 +1,5 @@
+@mixin tablet-desktop() {
+	@media screen and (min-width: 800px) {
+		@content;
+	}
+}

@@ -1,0 +1,52 @@
+@use '../../../../styles/mixins' as *;
+@use '../../../../styles/variables' as *;
+
+.Button {
+  &-primary,
+  &-secondary {
+    padding: 0.8rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: .75rem;
+    min-width: 10rem;
+    text-align: center;
+
+    // Estilos comunes del enlace
+    &__a {
+      text-decoration: none;
+      display: block; // Para que ocupe todo el espacio del botón
+    }
+  }
+
+  &-primary {
+    background-color: $amber-color;
+    border: transparent;
+    
+    &__a {
+      color: $pure-white;
+    }
+
+    &:hover {
+      background-color: $dark-amber;
+    }
+
+  }
+
+  &-secondary {
+    background-color: $pure-white;
+    border: 1px solid $light-stone;
+
+    &:hover {
+      border-color: $amber-color;
+      
+      // Hover específico para el enlace dentro del botón secundario
+      .Button-secondary__a {
+        color: $amber-color; // Cambia color del texto al hacer hover
+      }
+    }
+
+    &__a {
+      color: $dark-stone;
+    }
+  }
+}

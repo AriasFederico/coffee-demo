@@ -1,0 +1,29 @@
+@use '../../../../styles/variables' as *;
+@use '../../../../styles/mixins' as *;
+
+.VisitCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    
+    ion-icon {
+        width: 2rem;
+        height: 2rem;
+        color: $amber-color;
+    }
+
+    &__content {
+        text-align: center;
+    }
+
+    &__title {
+        font-family: 'inter', sans-serif;
+        color: $dark-stone;
+    }
+
+    &__description {
+        color: $medium-stone;
+        margin-bottom: .5rem;
+    }
+}
