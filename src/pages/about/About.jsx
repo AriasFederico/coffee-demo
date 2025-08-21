@@ -11,7 +11,7 @@ const { mission } = about;
 export const About = () => {
     return <section className='About'>
         <div className="About__container">
-            <div className='About__intro' data-aos='fade-right' data-aos-duration='1000'>
+            <div className='About__intro' >
                 <h2 className='About__title'>{about.title}</h2>
                 {about.description?.map((text, index) => (
                     <p key={index} className="About__description">{text}</p>
@@ -24,7 +24,7 @@ export const About = () => {
                 </div>
             </div>
 
-            <div className="About__mission" data-aos='fade-left' data-aos-duration='1000'>
+            <div className="About__mission">
                 <img src={mission.image} alt={mission.title} className='About__mission-image' />
                 <div className='About__mission-intro'>
                     <h3 className='About__mission-title'>{mission.title}</h3>
@@ -32,7 +32,7 @@ export const About = () => {
                 </div>
             </div>
 
-            <div className='About__visit' data-aos='fade-up' data-aos-duration='1000'>
+            <div className='About__visit' >
                 <h3 className='About__visit-title'>{businessInfo.title}</h3>
                 <div className="About__visit-cards">
                     {storeDetails?.map(({ icon, title, description1, description2 }) => (
