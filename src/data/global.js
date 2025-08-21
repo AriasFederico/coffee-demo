@@ -26,7 +26,7 @@ export const global = {
 			'Experience the finest artisanal coffee, freshly roasted beans, and handcrafted beverages in a warm, welcoming atmosphere that feels like home.',
 		ctaButton: [
 			{ text: 'View Menu', url: '#products', variant: '', id: 1 },
-			{ text: 'Visit Us', url: '#', variant: 'secondary', id: 2 },
+			{ text: 'Contact Us', url: '#', variant: 'secondary', id: 2 },
 		],
 		image: hero,
 	},
@@ -98,5 +98,9 @@ export const global = {
 				target: '_blank',
 			},
 		],
+		credit: {
+			altText: 'Pagina web desarrollada por CODEFEX',
+			url: '#',
+		},
 	},
 };

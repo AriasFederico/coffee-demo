@@ -18,4 +18,13 @@
         width: 1.5rem;
         height: 1.5rem;
     }
+
+    &__theme {
+        color: $light-stone;
+        
+        &:hover {
+            color: $amber-color;
+         }
+
+    }
 }

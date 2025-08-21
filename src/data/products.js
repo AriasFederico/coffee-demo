@@ -8,7 +8,7 @@ export const productsList = [
 		name: 'Premium Coffee Beans',
 		description:
 			'Ethically sourced, freshly roasted beans from around the world.',
-		price: 'From $18.99',
+		price: '$18.99',
 		category: '',
 	},
 	{
@@ -16,7 +16,7 @@ export const productsList = [
 		name: 'Artisan Pastries',
 		description:
 			'Freshly baked croissants, muffins, and seasonal treats made daily.',
-		price: 'From $3.99',
+		price: '$3.99',
 		category: '',
 	},
 	{
@@ -24,7 +24,7 @@ export const productsList = [
 		name: 'Specialty Drinks',
 		description:
 			'Expertly crafted lattes, cappuccinos, and seasonal specialties.',
-		price: 'From $4.50',
+		price: '$4.50',
 		category: '',
 	},
 ];
