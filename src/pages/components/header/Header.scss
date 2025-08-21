@@ -9,6 +9,7 @@
     background-color: $pure-white;
     padding:1rem 1.5rem;
     border-bottom: 1px solid $light-stone;
+    z-index: 5000;
 
     &__container {
         max-width: 1152px;
