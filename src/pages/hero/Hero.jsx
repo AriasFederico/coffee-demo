@@ -1,12 +1,13 @@
 import './Hero.scss';
 import { global } from '../../data/global';
 import { Button } from '../components/common/button/Button';
+
 const { hero } = global;
 const { title, span, endTitle, description, ctaButton, image } = hero;
 
 export const Hero = () => {
 	return (
-		<main className='Hero' >
+		<main className='Hero' id='hero'>
 			<div className='Hero__container'>
 				<div className='Hero__content'>
 					<h1 className='Hero__h1'>

@@ -1,5 +1,5 @@
-import hero from '../../public/hero.webp';
 import mission from '../../public/about.webp';
+import hero from '../../public/hero.webp';
 
 export const global = {
 	logo: {
@@ -100,7 +100,7 @@ export const global = {
 		],
 		credit: {
 			altText: 'Pagina web desarrollada por CODEFEX',
-			url: '#',
+			url: 'https://codefex.site/',
 		},
 	},
 };
