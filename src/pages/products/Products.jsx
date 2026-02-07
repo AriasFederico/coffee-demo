@@ -14,12 +14,11 @@ export const Products = () => {
 					<p className='Products__p'>{description}</p>
 				</div>
 				<div className='Products__content'>
-					{productsList?.map(({ image, name, description, price }) => (
+					{productsList?.map(({ image, name, description }) => (
 						<ProductCard
 							name={name}
 							image={image}
 							description={description}
-							price={price}
 							key={name}
 						/>
 					))}
